@@ -1,0 +1,245 @@
+/* Reset default browser styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set base font and background colors */
+  html {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f2f2f2;
+    max-width: 3000px;
+  }
+  
+  /* Define styles for the header section */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  /* Style the navigation menu */
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: larger;
+  }
+  
+  nav li {
+    margin-right: 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0.5rem;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  /* Define styles for the main content area */
+  main {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Roboto Slab', serif;
+  font-weight: 500;
+  }
+  
+  section {
+    margin-bottom: 3rem;
+  }
+  
+  .image-container {
+    width: 40%;
+    text-align: center;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h1, h2 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-size: 20px;
+  }
+  
+  p {
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    font-size:22px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 1rem 0;
+  }
+  
+  /* Style the footer section */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  /* Define styles for responsive design */
+  @media screen and (max-width: 768px) {
+    nav {
+      flex-direction: column;
+    }
+  
+    nav li {
+      margin-right: 0;
+      margin-bottom: 1rem;
+    }
+  }
+
+  header {
+    background-image: url('/images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 1rem;
+    height: 570px;
+  }
+
+  .instruction-container {
+    border: 4px solid #a2c23d;
+    padding: 15px;
+    margin: 0rem 0;
+    border-radius: 10px;
+    text-align: center;
+    list-style: none;
+  }
+
+  .instruction-container{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  h2 #step1{
+    grid-row: 1/1;
+    grid-template-columns: 1/3;
+  }
+
+  ul#step1ul{
+    grid-template-columns: 1/2;
+    grid-row: 2/3;
+  }
+  
+  .instruction-container ul li{
+    grid-column: 1/2;
+  }
+
+  #app{
+    grid-column: 2/3;
+  }
+.step_one{
+    font-size: 20px;
+}
+.image-container {
+    grid-row: 1/3;
+    width: 100%;
+}
+.image-container img{
+  width: 50%;
+  margin-left: 5%;
+}
+
+section.step_two{
+    border: 4px solid #a2c23d;
+    padding: 15px;
+    margin: 0rem 0;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    list-style: none;
+}
+
+#img1 {
+    margin-right: 200px;
+  }
+
+  h2{
+    font-size: 30px;
+    color: #a2c23d;
+  }
+
+
+  ul, li {
+    list-style: none;
+  }
+
+  section.step_one{
+    border: 4px solid #F5DEB3;
+    padding: 15px;
+    margin: 0rem 0;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #95763d;
+    
+  }
+
+  section.step_two{
+    border: 4px solid #a2c23d;
+    padding: 15px;
+    margin: 0rem 0;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #ADD8E6;
+    
+  }
+
+
+  section.step_three{
+    border: 4px solid #a2c23d;
+    padding: 15px;
+    margin: 0rem 0;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    background-color:  #F5DEB3;
+    
+  }
+
+  section.step_four{
+    border: 4px solid #a2c23d;
+    padding: 15px;
+    margin: 0rem 0;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #FFC0CB;
+    
+  }
+
+#s2{
+    color:#a2c23d
+}
+.step_two h2{
+    color:#333;
+}
+
+
+  .lesson_list li, h3{
+    text-align: left;
+    margin-left: 10px;
+    list-style:decimal;
+  }
